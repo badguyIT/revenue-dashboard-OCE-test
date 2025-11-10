@@ -24,7 +24,7 @@ columns = [
 
 # Tải dữ liệu từ Excel (thay 'financial_data.xlsx' bằng tên file thực của bạn)
 try:
-    df = pd.read_excel("C:\\Users\\loy\\Downloads\\[FOXAI] Bài Test - Data Analytics Engineer.xlsx",sheet_name='Data')
+    df = pd.read_excel(".\[FOXAI] Bài Test - Data Analytics Engineer.xlsx", sheet_name='Data')
 except FileNotFoundError:
     st.error("File 'financial_data.xlsx' không tìm thấy. Vui lòng kiểm tra lại đường dẫn.")
     st.stop()
